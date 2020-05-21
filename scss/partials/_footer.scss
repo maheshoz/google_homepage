@@ -8,12 +8,23 @@ footer {
   border-top: .5px solid #dbdbdb
 }
 p.small-text {
-  color: rgb(88, 86, 86);
-  border-bottom: .5px solid #dbdbdb;
-  font-size: 15px;
-  padding: 10px;
+    color: #585656b5;
+    border-bottom: .5px solid #dbdbdb;
+    font-size: 16px;
+    padding: 10px;
 }
+.footer-links {
+    padding: 10px;
+    display: flex;
+    flex-wrap :wrap;
+    justify-content: space-between;
+}
+
 .footer-links a {
     font-size: 14px;
     color: #5f6368;
+    flex: 1 0 auto;
+}
+.link-items a {
+    padding-right: 1rem;
 }

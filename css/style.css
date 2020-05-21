@@ -94,6 +94,14 @@ nav ul li {
   box-shadow: 0px 7px 0 black, 0px 14px 0 black;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
 footer {
   background-color: #f2f2f2;
   padding: 0.5rem 1rem;
@@ -105,13 +113,25 @@ footer {
 }
 
 p.small-text {
-  color: #585656;
+  color: #585656b5;
   border-bottom: .5px solid #dbdbdb;
-  font-size: 15px;
+  font-size: 16px;
   padding: 10px;
+}
+
+.footer-links {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .footer-links a {
   font-size: 14px;
   color: #5f6368;
+  flex: 1 0 auto;
+}
+
+.link-items a {
+  padding-right: 1rem;
 }
