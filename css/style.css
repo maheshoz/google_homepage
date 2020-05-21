@@ -102,6 +102,70 @@ main {
   height: 100%;
 }
 
+.google-logo {
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  display: flex;
+  width: 480px;
+  height: 44px;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dfe1e5;
+  border-radius: 30px;
+}
+
+.form-group:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.search-icon {
+  width: 15px;
+  display: inline-block;
+  flex: 0 0 30px;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-top: 7px;
+}
+
+.search-icon-svg {
+  width: 23px;
+  fill: #ababab;
+}
+
+.search-input {
+  flex: 3 0 auto;
+  border: none;
+  height: 40px;
+  font-size: 1.2rem;
+}
+
+input[type="text"] {
+  font-size: 19px;
+}
+
+input {
+  font-weight: lighter !important;
+}
+
+input:focus {
+  outline: none;
+}
+
+.speech-icon {
+  cursor: pointer;
+  margin-right: 0.8rem;
+  width: 30px;
+  flex: 0 0 30px;
+}
+
+.speech-icon-svg {
+  width: 24px;
+}
+
 footer {
   background-color: #f2f2f2;
   padding: 0.5rem 1rem;
