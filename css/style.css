@@ -99,7 +99,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100%;
+  margin-top: 5rem;
 }
 
 .google-logo {
@@ -164,6 +164,42 @@ input:focus {
 
 .speech-icon-svg {
   width: 24px;
+}
+
+.button-group {
+  margin: 1.5rem auto;
+}
+
+.button-group .btn {
+  border: none;
+  display: inline-block;
+  margin: 0 0.4rem;
+  background-color: #f2f2f2;
+  padding: 0.7rem 1rem;
+  border: 1px solid #f2f2f2;
+  color: gray;
+  text-decoration: none;
+}
+
+.button-group .btn:hover {
+  border: 1px solid #c6c6c6;
+  color: #222;
+  cursor: pointer;
+}
+
+.langs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intro {
+  font-size: 14px;
+}
+
+.langs a {
+  color: blue;
+  font-size: 13px;
+  margin: 0 5px;
 }
 
 footer {

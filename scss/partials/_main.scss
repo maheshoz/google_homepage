@@ -3,11 +3,11 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100%;
+  margin-top: 5rem;
 }
 
-.google-logo{
-    margin-bottom: 1rem;
+.google-logo {
+  margin-bottom: 1rem;
 }
 .form-group {
   display: flex;
@@ -42,22 +42,57 @@ main {
   height: 40px;
   font-size: 1.2rem;
 }
-input[type="text"]
-{
-    font-size:19px;
+input[type="text"] {
+  font-size: 19px;
 }
-input{
-    font-weight: lighter !important;
+input {
+  font-weight: lighter !important;
 }
 input:focus {
-    outline: none;
+  outline: none;
 }
 .speech-icon {
   cursor: pointer;
   margin-right: 0.8rem;
   width: 30px;
   flex: 0 0 30px;
-  &-svg{
-      width: 24px;
+  &-svg {
+    width: 24px;
   }
+}
+
+// button group
+.button-group {
+  margin: 1.5rem auto;
+
+  .btn {
+    border: none;
+    display: inline-block;
+    margin: 0 0.4rem;
+    background-color: #f2f2f2;
+    padding: 0.7rem 1rem;
+    border: 1px solid #f2f2f2;
+    color: gray;
+    text-decoration: none;
+    &:hover {
+      border: 1px solid #c6c6c6;
+      color: #222;
+      cursor: pointer;
+    }
+  }
+}
+
+.langs {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.intro {
+  font-size: 14px;
+}
+
+.langs a {
+    color: blue;
+    font-size: 13px;
+    margin: 0 5px;
 }
