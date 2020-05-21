@@ -1,0 +1,19 @@
+footer {
+  background-color: #f2f2f2;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: .5px solid #dbdbdb
+}
+p.small-text {
+  color: rgb(88, 86, 86);
+  border-bottom: .5px solid #dbdbdb;
+  font-size: 15px;
+  padding: 10px;
+}
+.footer-links a {
+    font-size: 14px;
+    color: #5f6368;
+}

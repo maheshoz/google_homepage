@@ -1,0 +1,68 @@
+ul {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  align-items: center;
+
+  font-size: 14px;
+  color: #000
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+.nav-btn a:hover {
+    color: white;
+}
+nav ul li {
+    flex: 0 0 50px;
+}
+
+.nav-btn{
+    background-color: #4285f4;
+    color: white;
+    padding: 8px 13px;
+    flex: 0 0 70px;
+    margin-left: 7px;
+}
+.li-images {
+    margin-right: 25px;
+}
+.nine-dots {
+    width: 4px;
+    bottom: 5px;
+    height: 4px;
+    background-color: gray;
+    box-shadow: 0px 7px 0 grey, 0px 14px 0 grey;
+    position: relative;
+    cursor: pointer;
+  &::before {
+    content: " ";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    cursor: pointer;
+    left: -7px;
+    background-color: gray;
+    box-shadow: 0px 7px 0 grey, 0px 14px 0 grey;
+  }
+  &::after {
+    content: " ";
+    position: absolute;
+    width: 4px;
+    cursor: pointer;
+    height: 4px;
+    left: 7px;
+    background-color: gray;
+    box-shadow: 0px 7px 0 grey, 0px 14px 0 grey;
+  }
+  &:hover{
+      background-color: black;
+      box-shadow: 0px 7px 0 black, 0px 14px 0 black;
+  }
+}
+
